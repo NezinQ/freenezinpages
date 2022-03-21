@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://cdn.wallpapersafari.com/33/55/ns84ph.gif');
+    background-color white: 
     font-family: Montserrat, sans-serif;
 }
 
@@ -73,7 +73,7 @@ p {
 
 /* Карточка */
 .card {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) );
+    background: #273036;
     height: 450px;
     width: 450px;
     border-radius: 20px;
@@ -82,7 +82,6 @@ p {
 .content {
     padding: 0 15px 0 25px;
     color: white;
-    opacity: 100;
 }
 
 .up {
@@ -94,7 +93,7 @@ p {
     max-width: 150px;
     border: 20px solid white;
     border-radius: 20px;
-    border-image: url('https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/322330/46461aaea39b18a4a3da2e6d3cf253006f2d6193.png') 22 round;
+    border-image: url("ava2.png");
     margin-top: -50px;
 }
 
