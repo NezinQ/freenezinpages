@@ -1,21 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #F28645;
+    background-image: url('https://cdn.wallpapersafari.com/33/55/ns84ph.gif');
+    font-family: Montserrat, sans-serif;
 }
 
+/* Всё что связано с текстом */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+.social {
+    color: white;
+}
+
+h3,
+h4,
+    {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 0px;
+}
+
+h6 {
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/* Всё что связано с текстом */
+
+
+/* Навыки */
+.skills {
+    background-color: black;
+    opacity: 0.33;
+    text-align: left;
+    padding: 15px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul li {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+
+/* Навыки */
+
+
+/* Карточка */
 .card {
-    background-color: #2F3136;
-    font-family: monospace;
-    height: 350px;
-    width: 400px;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) );
+    height: 450px;
+    width: 450px;
     border-radius: 20px;
 }
 
 .content {
     padding: 0 15px 0 25px;
+    color: white;
+    opacity: 100;
 }
 
 .up {
@@ -25,39 +92,16 @@ body {
 
 .photo {
     max-width: 150px;
-    border: 5px solid #2F3136;
-    border-radius: 5px;
+    border: 20px solid white;
+    border-radius: 20px;
+    border-image: url('https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/322330/46461aaea39b18a4a3da2e6d3cf253006f2d6193.png') 22 round;
     margin-top: -50px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
-.social-github {
-    color: #F28645
+.badge{
+    max-width: 30px;
 }
 
-.social-vk {
-    color: #F28645
-}
-
-.social-discord {
-    color: #F28645
-}
-
-.social-money {
-    color: #F28645
-}
-
-.namee {
-    color: white;
-}
-
-
-.name {
-    font-size: 25px;
-    line-height: 0;
-    padding-top: 20px;
-    color: white;
+.badge2{
+    max-width: 23px;
 }
