@@ -10,7 +10,8 @@ body {
 }
 
 /* Всё что связано с текстом */
-a {
+a,
+p {
     text-decoration: none;
     color: #273036;
 }
@@ -59,7 +60,7 @@ p {
 }
 
 .skills ul li {
-    border: 1px solid #ffffff;
+    border: 1px solid #;
     border-radius: 2px;
     display: inline-block;
     font-size: 12px;
@@ -90,7 +91,7 @@ p {
 
 .photo {
     max-width: 150px;
-    border: 20px solid white;
+    border: solid white;
     border-radius: 20px;
     margin-top: -50px;
 }
