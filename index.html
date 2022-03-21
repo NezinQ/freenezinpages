@@ -24,66 +24,43 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="shortcut icon" href="20210812_101019.png">
 </head>
-<body>
+    <body>
 
-<!--Карточка-->
-<div class="card">
-    <div class="content">
-        <div class="up">
-            <img src="ava2.png" alt="Девушка перед зеркалом" title="Девушка перед зеркалом" class="photo">
-            <p>
-                <a href="server.html" class="social-discord"><i class="fab fa-discord"></i></a>
-                <a href="qiwi.html" class="social-money"><i class="fas fa-ruble-sign"></i></a>
-                <a href="https://www.instagram.com/nezin_mq/" class="social-money"><i class="fab fa-instagram"></i></a>
-            </p>
+        <!--Карточка-->
+        <div class="card">
+            <div class="content">
+                <div class="up">
+                  <div class="frame">
+                  <img class="photo kruto" src="https://cdn.discordapp.com/avatars/699901346530459738/a5baa5acb247f4b1090fd18cc303b361.webp?size=4096" alt="avatar" title="avatar">
+                  </div>
+                    <p>
+                      <a target="_top" class="social" href="tools.html"><i class="fas fa-folder"></i></a>
+                        <a target="_top" class="social" href="system.html"><i class="fab fa-windows"></i></a>
+                        <a target="_top" class="social" href="https://deathly-elite.herokuapp.com"><i class="fab fa-discord"></i></a>
+                      <a target="_top" class="social" href="rofl.html"><i class="fas fa-globe"></i></a>
+                    </p>
+                </div>
+
+                <h3>Cursed <img src="https://boticord.top/static/badges/partner.svg" class="badge"> <img src="https://boticord.top/static/badges/dev.svg" class="badge2"></h3>
+                <h6>"Beyond consciousness lies a new reality"</h6>
+                <p><img src="https://cdn.discordapp.com/emojis/828277603957866566.webp?size=20&quality=lossless"> Hello, I'm Cursed! I developer and UI/UX Designer from the UA.
+                  Moderator On <a target="_blank" href="https://discord.gg/WZaRYbrFC9">Deathly Elite</a></p>
+                <h3>I Knowledge Of</h3>
+                <div class="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Node</li>
+                        <li>C#</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+               </div>
+            </div>
         </div>
-        <h3 idd="name" class="name">Nezin</h3>
-        <p class="namee">Типичный недопрограммист, делаю дискорд ботов🚮</p>
-        <h4  class="namee">Developer of <a href="https://deathly-bot.xyz" style="color: #969CFF">Deathly Bot</a></h4>
-        <h3 class="namee">Изучаю:</h3>
-        <img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" title="Python">
-        <img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML" title="HTML">
-        <img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS" title="CSS">
-        <img height="32" src="https://media.discordapp.net/attachments/855410941709123636/890584791278288926/1_Q5EUk28Xc3iCDoMSkrd1_w.png" alt="Flask" title="Flask">
-    </div>
-</div>
-<!--Конец карточки-->
-<script>
-  jQuery(document).ready(function($){
-    $('<style>'+
-      '.scrollTop{ display:none; z-index:9999; position:fixed;'+
-        'bottom:40px; left:90%; width:90px; height:50px;'+
-        'background:url(button/img/arrow4.png) 0 0 no-repeat; }' +
-      '.scrollTop:hover{ background-position:0 -133px;}'
-    +'</style>').appendTo('body');
-    var
-    speed = 550,
-    $scrollTop = $('<a href="index.html#" class="scrollTop">').appendTo('body');		
-    $scrollTop.click(function(e){
-      e.preventDefault();
-      $( 'html:not(:animated),body:not(:animated)' ).animate({ scrollTop: 0}, speed );
-    });
-  
-    //появление
-    function show_scrollTop(){
-      ( $(window).scrollTop() > 330 ) ? $scrollTop.fadeIn(700) : $scrollTop.fadeOut(700);
-    }
-    $(window).scroll( function(){ show_scrollTop(); } );
-    show_scrollTop();
-  });
-  </script>
-  
-  
-<script type="text/javascript" id="cookieinfo"
-        src="http://cookieinfoscript.com/js/cookieinfo.min.js"
-    data-bg="#5900ff"
-    data-fg="#FFFFFF"
-    data-link="#F1D600"
-    data-font-size ="13px"
-    data-message="Мы cохраняем файлы cookie: это помогает сайту работать лучше."
-    data-moreinfo="https://rt.pornhub.com/"
-    data-linkmsg="Соглашение"
-    data-close-text="Я понял(а)!">
-</script>
-</body>
+        <!--Карточка-->
+    
+    </body>
 </html>
