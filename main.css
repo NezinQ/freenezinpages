@@ -57,12 +57,24 @@ p {
 }
 
 .skills ul li {
-    border: 1px solid #273036;;
+    border: 1px solid #273036;
     border-radius: 2px;
     display: inline-block;
     font-size: 12px;
     margin: 0 7px 7px 0;
     padding: 7px;
+    transition: all .3s;
+}
+
+.skills ul li:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+    background-color: #273036;
+    color: white;
 }
 
 /* Навыки */
